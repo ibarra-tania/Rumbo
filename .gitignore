@@ -1,0 +1,41 @@
+# ─── SECRETOS: nunca se suben al repositorio ───
+android/local.properties
+ios/Flutter/Secrets.xcconfig
+.env
+*.env
+android/key.properties
+*.jks
+*.keystore
+
+# ─── Flutter / Dart ───
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# ─── Android ───
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+android/app/debug
+android/app/profile
+android/app/release
+android/.kotlin/
+
+# ─── iOS ───
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+**/xcuserdata/
